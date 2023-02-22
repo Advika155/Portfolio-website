@@ -1,0 +1,150 @@
+html{
+    background-image: url(https://th.bing.com/th/id/OIP.i-Ssap5dhjyy8fGZ-EHgXwHaFj?w=230&h=180&c=7&r=0&o=5&pid=1.7);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    viewport-fit: 100%;
+}
+.classpic
+{
+    padding: 50px;
+    float: left;
+}
+.classnavi
+{
+    background-color:palevioletred;
+    overflow: hidden;
+}
+.classnavi a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  
+  }
+  .classnavi a:hover{
+        background-color: pink;
+        color: white;
+  }
+.classnavi a.active
+{
+    background-color: rgb(214, 95, 115);
+    color: white;
+      
+}
+.about{
+    font-size:45px;
+    font-family: 'Shantell Sans', cursive; 
+    text-transform: uppercase;
+    animation: glow 56s ease-in-out; 
+    background-image: url("https://th.bing.com/th/id/R.1f9727fd71473161bcccb27c10b68729?rik=7h8%2fde9hi4RCwg&riu=http%3a%2f%2ffiles.campus.edublogs.org%2fblogs.baylor.edu%2fdist%2f1%2f1319%2ffiles%2f2012%2f06%2fTFS-diaries-0021-2glgf8c.jpg&ehk=uxuneCtacKdiQkagm6uUwvRB9QEpEsupHbyfDDseVus%3d&risl=&pid=ImgRaw&r=0"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 20px palevioletred;
+        transform: scale(1);
+        translate: (0,0);
+    }
+    to{
+        text-shadow: 0 0 30px pink,0 0 10px white;
+        transform: scale(0.3);
+        translate: (0,50px);
+    }
+}
+.achievements
+{
+    font-size: 45px;
+    font-family: 'Shantell Sans', cursive;
+    text-shadow: 2px,2px, black;
+    animation: slideup 8s infinite;
+}
+@keyframes slideup 
+    {
+      0% {
+        transform: translateY(0);
+      }
+      100%
+      {
+        transform: translateY(40px);opacity:1;
+      }
+    }
+
+
+.hobbies{
+    font-size: 35px;
+    font-family: 'Shantell Sans', cursive;
+    text-shadow: 4px 4px white;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    float: left;
+    animation: back 8s infinite ease-in-out;
+    animation: slideright 8s infinite;
+    
+}
+@keyframes slideright
+    {
+      0% {
+        transform: translateX(0);
+      }
+      100%
+      {
+        transform: translateX(500px);opacity:1;
+      }
+    }
+
+
+@keyframes back{
+    from{
+        background-color: pink;
+    }
+    to{
+        background-color: palevioletred;
+    }
+
+
+}
+.projects
+{
+    font-size: 25px;
+    font-family: 'Shantell Sans', cursive;
+    overflow: hidden;
+    padding: 56px;
+    float:left;
+    display: flex;
+    justify-content: space-between;
+    
+    animation: ski 12s infinite ease-in-out;
+}
+.skill
+{
+    font-size: 45px;
+    font-family: 'Shantell Sans', cursive;
+    display: flex;
+    opacity: 1;
+    display: flex;
+    float: inline-end;
+    animation: slideright 8s infinite;
+}
+@keyframes ski{
+    0%{
+        background-color: rgb(87, 87, 179);
+    }
+    20%
+    {
+        background-color: rgb(25, 94, 155);
+    }
+    60%
+    {
+        background-color: rgba(32, 163, 196, 0.541);
+    }
+}
+.details
+{
+    font-size: 25px;
+    color: black;
+    font-style: oblique;
+
+}
